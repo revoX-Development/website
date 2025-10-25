@@ -18,7 +18,7 @@
 
 :root {
 	--background-color: #0E1518;
-	--background-image: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/default.jpg@webp');
+	--background-image: url('/cdn-cgi/image/height=1440,quality=80,format=avif/default.jpg');
 }
 
 body {

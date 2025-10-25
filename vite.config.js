@@ -6,7 +6,15 @@ const config = {
 	plugins: [
 		sveltekit(),
 		SvelteKitPWA(),
-	]
+	],
+	server: {
+		proxy: {
+			'/cdn-cgi': {
+				target: 'https://christmascountdown.live',
+				changeOrigin: true
+			},
+		},
+	},
 };
 
 export default config;

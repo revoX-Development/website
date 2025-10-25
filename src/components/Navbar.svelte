@@ -33,7 +33,7 @@
 					<div>
 						<a href="/" class="flex items-center py-4 px-2">
 							<img
-								src="https://img.eartharoid.me/insecure/rs:auto:256/plain/s3://eartharoid/christmas-countdown/logo/tr/santa.png@png"
+								src="/cdn-cgi/image/height=128/santa.png"
 								alt="Christmas Countdown"
 								class="h-8 w-8 mr-2"
 							/>
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 				<!-- right -->
-				<div class="hidden md:flex items-center space-x-3 ">
+				<div class="hidden md:flex items-center space-x-3">
 					<a
 						href="https://lnk.earth/discord"
 						class="py-2 px-2 font-medium text-gray-400 rounded hover:bg-primary hover:text-white transition duration-300"
@@ -75,7 +75,7 @@
 					>
 						<span class="sr-only">Open navigation menu</span>
 						<div
-							class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2"
+							class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
 						>
 							<span
 								aria-hidden="true"
@@ -85,13 +85,13 @@
 							/>
 							<span
 								aria-hidden="true"
-								class="block absolute  h-0.5 w-5 bg-current   transform transition duration-500 ease-in-out {open
+								class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out {open
 									? 'opacity-0'
 									: ''}"
 							/>
 							<span
 								aria-hidden="true"
-								class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out {open
+								class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out {open
 									? '-rotate-45'
 									: 'translate-y-1.5'}"
 							/>

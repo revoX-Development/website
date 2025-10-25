@@ -57,7 +57,7 @@
 
 	<div
 		class="card-bg bg-original bg-fixed rounded-lg bg-clip-border shadow-xl text-center"
-		style="--url: url('https://img.eartharoid.me/insecure/pr:1080p/plain/s3://eartharoid/christmas-countdown/bg/legacy.jpg@webp');"
+		style="--url: url('/cdn-cgi/image/height=720,quality=80,format=avif/legacy.jpg');"
 	>
 		<div class="inner p-2 sm:p-0">
 			<p class="text-3xl mb-4">Christmas is in</p>
@@ -90,7 +90,8 @@
 							Get Christmas jokes <i class="fas fa-arrow-right" />
 						</h2>
 						<p>
-							Get a random joke from a collection of over 100 Christmas jokes, and avoid awkwardly trying to think of one yourself.
+							Get a random joke from a collection of over 100 Christmas jokes, and avoid awkwardly
+							trying to think of one yourself.
 						</p>
 					</div>
 				</Card>
@@ -133,7 +134,7 @@
 								<Item name="hours" value={Math.floor(data.hours)} />
 								<Item name="minutes" value={Math.floor(data.minutes)} />
 								<Item name="seconds" value={Math.floor(data.seconds)} />
-								<div class="sm:col-span-2  w-full">
+								<div class="sm:col-span-2 w-full">
 									<div class="grid grid-cols-1 gap-0">
 										<p class="font-number text-3xl">{Math.round(data.percentage * 100) / 100}%</p>
 										<!-- <p class="text-xl">of the way there</p> -->
